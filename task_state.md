@@ -14,6 +14,7 @@
 - 已初始化本地 Git 仓库（`main` 分支），当前未创建任何提交。
 - Python 编译检查、合成数据 JSON 与 `pyproject.toml` 解析检查通过。
 - 已补充零前后端基础的新手目录导览和亲自运行步骤。
+- 已创建真实初始 Git 提交 `8b2b7cf feat: establish Day 1 vertical slice`。
 
 ## 当前状态
 
@@ -21,6 +22,7 @@
 - SQLite 基线已实现并通过双版本测试。
 - Docker 引擎未运行；FastAPI、LangGraph、SQLGlot、Chroma、Streamlit 尚未安装或集成。
 - 已验证结果：A 场 2026-08 错配率 25.00%，2026-09 为 40.00%，提高 15.00 个百分点。
+- GitHub CLI 当前账号 `JiaxinZhang-space` 的令牌失效；远程仓库创建与推送等待用户重新授权并确定公开/私有。
 
 ## 下一步计划
 

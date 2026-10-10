@@ -1,0 +1,37 @@
+[project]
+name = "enterprise-data-agent"
+version = "0.1.0"
+description = "A testable enterprise data analysis agent portfolio project"
+requires-python = ">=3.11,<3.14"
+dependencies = []
+
+[project.optional-dependencies]
+api = [
+  "fastapi>=0.116,<1.0",
+  "httpx>=0.28,<1.0",
+  "uvicorn[standard]>=0.35,<1.0",
+]
+agent = [
+  "langgraph>=1.0,<2.0",
+  "sqlglot>=27,<30",
+]
+postgres = [
+  "psycopg[binary]>=3.2,<4.0",
+  "sqlalchemy>=2.0,<3.0",
+]
+rag = [
+  "chromadb>=1.0,<2.0",
+]
+ui = [
+  "streamlit>=1.48,<2.0",
+]
+dev = [
+  "pytest>=8.4,<9.0",
+  "pytest-cov>=6,<8.0",
+  "ruff>=0.12,<1.0",
+]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+

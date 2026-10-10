@@ -1,0 +1,15 @@
+[
+  {"event_id":"A-202608-001","event_date":"2026-08-02","farm_id":"A","sow_line_id":"L1","boar_line_id":"L1","status":"valid","is_rule_match":1},
+  {"event_id":"A-202608-002","event_date":"2026-08-07","farm_id":"A","sow_line_id":"L1","boar_line_id":"L1","status":"valid","is_rule_match":1},
+  {"event_id":"A-202608-003","event_date":"2026-08-16","farm_id":"A","sow_line_id":"L2","boar_line_id":"L2","status":"valid","is_rule_match":1},
+  {"event_id":"A-202608-004","event_date":"2026-08-22","farm_id":"A","sow_line_id":"L2","boar_line_id":"L1","status":"valid","is_rule_match":0},
+  {"event_id":"A-202608-005","event_date":"2026-08-29","farm_id":"A","sow_line_id":"L2","boar_line_id":"L1","status":"invalid","is_rule_match":0},
+  {"event_id":"A-202609-001","event_date":"2026-09-03","farm_id":"A","sow_line_id":"L1","boar_line_id":"L1","status":"valid","is_rule_match":1},
+  {"event_id":"A-202609-002","event_date":"2026-09-09","farm_id":"A","sow_line_id":"L1","boar_line_id":"L2","status":"valid","is_rule_match":0},
+  {"event_id":"A-202609-003","event_date":"2026-09-14","farm_id":"A","sow_line_id":"L2","boar_line_id":"L2","status":"valid","is_rule_match":1},
+  {"event_id":"A-202609-004","event_date":"2026-09-21","farm_id":"A","sow_line_id":"L2","boar_line_id":"L1","status":"valid","is_rule_match":0},
+  {"event_id":"A-202609-005","event_date":"2026-09-28","farm_id":"A","sow_line_id":"L1","boar_line_id":"L1","status":"valid","is_rule_match":1},
+  {"event_id":"B-202609-001","event_date":"2026-09-04","farm_id":"B","sow_line_id":"L1","boar_line_id":"L1","status":"valid","is_rule_match":1},
+  {"event_id":"B-202609-002","event_date":"2026-09-18","farm_id":"B","sow_line_id":"L2","boar_line_id":"L2","status":"valid","is_rule_match":1}
+]
+

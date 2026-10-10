@@ -15,6 +15,7 @@
 - Python 编译检查、合成数据 JSON 与 `pyproject.toml` 解析检查通过。
 - 已补充零前后端基础的新手目录导览和亲自运行步骤。
 - 已创建真实初始 Git 提交 `8b2b7cf feat: establish Day 1 vertical slice`。
+- 已创建公开仓库 `https://github.com/JiaxinZhang-space/enterprise-data-agent`，并将 `main` 推送到远程。
 
 ## 当前状态
 
@@ -22,13 +23,13 @@
 - SQLite 基线已实现并通过双版本测试。
 - Docker 引擎未运行；FastAPI、LangGraph、SQLGlot、Chroma、Streamlit 尚未安装或集成。
 - 已验证结果：A 场 2026-08 错配率 25.00%，2026-09 为 40.00%，提高 15.00 个百分点。
-- GitHub CLI 当前账号 `JiaxinZhang-space` 的令牌失效；远程仓库创建与推送等待用户重新授权并确定公开/私有。
+- GitHub CLI 已重新授权；公开仓库默认分支为 `main`，本地分支已跟踪 `origin/main`。
 
 ## 下一步计划
 
 1. 用户亲自执行测试与三个演示命令，确认能够识别关键输出。
-2. 恢复 GitHub CLI 授权，创建远程仓库并推送真实初始提交。
-3. 下一开发小步建立项目虚拟环境并接入 FastAPI `/v1/query`，复用当前核心服务。
+2. 下一开发小步建立项目虚拟环境并接入 FastAPI `/v1/query`，复用当前核心服务。
+3. 每个可验证小任务完成后提交并推送一条语义清晰的 Git 记录。
 
 ## 重要技术决策
 
